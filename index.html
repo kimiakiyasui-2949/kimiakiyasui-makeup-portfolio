@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="intro-video">
+    <video id="intro" src="saiche.mp4" autoplay muted playsinline style="width:100%; height:100vh;"></video>
+</section>
+
+
+<section class="main-content" style="display:none;">
+    
+    <!-- 既存のコンテンツ -->
+</section>
+    <div class="head">
+        <p><a href="#position">position</a></p>
+        
+        <p><a href="#relax">Relax</a></p>
+        <p><a href="#impact">impact</a></p>
+        <p><a href="#contact">contact</a></p>
+        
+    </div>
+   <section class="video-section">
+    
+    <video src="shoot.mp4"muted autoplay loop id="position" class="video-4"></video>
+    </section>
+    <h1>In the blink of an eye, the world shifted—she had completed it all.
+I could scarcely believe my eyes, amazed at the speed,</h1>
+     <section class="main">
+       
+    <video src="relax.mp4"muted autoplay loop class="video-2"id="relax"></video>
+    
+    <div class="text-3">
+        <p class="text-5">Turn around </p>
+    </div>
+    <h2 id="impact">impact</h2>
+    <video src="foryou.mp4"muted autoplay loop class="video-3"></video>
+    <video src="shoot-2.mp4"muted autoplay loop class="video-5"></video>
+
+
+    <footer id="contact">
+        <p> 01 art work</p>
+        <p> ndkd@gamil.com</p>
+        Whispering secrets to the stones it touches.
+Moments shimmer<br> and fade,
+Like morning dew kissed by the sun.
+    </footer>
+        
+    
+   <style>
+    html,body {
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+         overflow-x: hidden;
+        
+
+    }
+   /* イントロ動画フェードイン */
+#intro {
+    opacity: 0;
+    animation: fadeIn 2.5s ease forwards;
+}
+.intro-video video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block; /* 余白対策 */
+}
+.video-5{
+    width:100%;
+    margin-top: 24px;
+  
+
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+    .video-section{
+        width:100%;
+        height:100vh;
+        overflow: hidden;
+    }
+    .video-section video{
+        width: 100%;
+        height: 98%;
+        object-fit: cover;
+     }
+     .head{
+         position: fixed;
+        top: 12%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+    gap: 10px;               /* 文字の間隔 */
+    color: white;            /* 動画上で見やすい色 */
+    font-size: 3rem;         /* 文字サイズ調整 */
+    z-index: 10;  
+    position: fixed;           /* 動画より前面に表示 */
+    
+        
+     }
+    .head a{
+        margin-left:25px;
+        color: black;
+        font-size: 41px;
+        
+        
+        
+        
+        
+        
+    }
+    .main{
+        width: 100%;
+        height: 100vh;
+    }
+    .text-2{
+        position: absolute;
+        left: 19%;
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+    .main{
+        text-align: center;
+    }
+    .video-2{
+        width: 60%;
+        margin-top: 24px;
+    
+    }
+    .broun{
+        width: 90%;
+        margin-top: 28px;;
+    }
+    .text-3 .text-5 {
+        background-color: rgb(244, 242, 242);
+        padding: 12px;
+        margin: 0;
+    }
+   
+    .video-3{
+        width: 100%;important:  !important;
+    }
+    footer {
+        width: 100%;
+        height: 50vh;
+        background-color: rgba(146, 164, 71, 0.075);
+        text-align: left;
+        padding-top: 400px;
+    }
+  
+    
+
+    @media(max-width:860px){
+    html,dody {
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+      
+    .head{
+    position: fixed;
+    top: 2px;
+    left: 46%;
+    transform: translateX(-50%); /* Y方向の translate を消す！ */
+    display: flex;
+    gap: 14px;
+    z-index: 10;
+}
+     .head a{
+    font-size: 15px;
+    color: rgb(8, 8, 8);
+
+}
+
+    .text-2{
+        position: absolute;
+        left: 19%;
+        font-size: 13px;
+        font-weight: bold;
+        
+    }  
+    .broun{
+        width: 100%;
+        margin-top: 28px;
+    }
+        .slideshow {
+  position: relative;
+  width: 100%;
+  height: 07%; /* 好きな高さ */
+  overflow: hidden;
+  margin-top: 24px;
+  text-align: center;
+}
+
+   .slideshow {
+  position: relative;
+  width: 90%;
+  height: 40%; /* 好きな高さ */
+  overflow: hidden;
+  margin: 60px 38px 0px 34px;
+  
+    h2{
+        padding-top:28px;
+    }
+     .video-3{
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+        height: 10vh;
+        background-color: rgba(146, 164, 71, 0.075);
+    }
+    footer p{
+        color: black;
+        text-align: left;
+        padding-bottom: 90px;
+
+        
+        
+
+
+    }
+     
+    </section></style>
+  <script>
+  let index = 0;
+  const slides = document.querySelectorAll(".slide");
+
+  function showSlide() {
+    // 全部非表示
+    slides.forEach(slide => slide.classList.remove("active"));
+
+    // 対象だけ表示
+    slides[index].classList.add("active");
+
+    // 次へ
+    index = (index + 1) % slides.length;
+  }
+
+  // 最初の表示
+  showSlide();
+
+  // 3秒ごとに切り替え
+  setInterval(showSlide, 3000);
+
+
+        
+    
+
+const intro = document.getElementById('intro');
+const mainContent = document.querySelector('.main-content');
+
+intro.addEventListener('ended', () => {
+    // イントロ動画が終了したら非表示にしてメイン表示
+    intro.parentElement.style.display = 'none';
+    mainContent.style.display = 'block';
+});
+</script>
+</body>
+</html>
