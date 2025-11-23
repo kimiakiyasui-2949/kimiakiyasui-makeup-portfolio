@@ -1,30 +1,28 @@
-# KimiakiYasui Makeup & Beauty Portfolio
+# Kimiaki Yasui - Makeup Artist Portfolio
 
-Welcome to my professional makeup and beauty portfolio! This repository showcases my works, including fashion, beauty tutorials, and creative projects based in New York.
+This is the official portfolio of **Kimiaki Yasui**, a professional makeup artist based in New York.  
 
-## About Me
-Hi, I'm **Kimiaki Yasui**, a makeup artist passionate about creating unique and artistic looks. I specialize in:
+Explore the works of **Kimiaki Yasui**, including fashion, bridal, and editorial makeup projects.
 
-- Fashion makeup
-- Beauty tutorials
-- Creative photo shoots
+## About
+**Kimiaki Yasui** has extensive experience in makeup artistry and has worked with various clients and brands.  
 
-## Projects
-Here are some highlights from my portfolio:
+- Name: Kimiaki Yasui  
+- Profession: Makeup Artist  
+- Location: New York, USA  
 
-1. **Fashion Editorials** – High-fashion makeup and photoshoots.
-2. **Beauty Tutorials** – Step-by-step guides for various makeup styles.
-3. **Creative Projects** – Experimental and artistic makeup works.
+## Portfolio
+View selected projects by **Kimiaki Yasui**:  
+- Fashion photoshoots  
+- Bridal makeup  
+- Editorial & commercial makeup  
 
-## Skills
-- Makeup artistry (fashion & beauty)
-- Professional photography collaboration
-- Content creation for social media
-
-## Topics
-This repository includes topics for easier discovery:  
-`makeup`, `beauty`, `portfolio`, `fashion`, `KimiakiYasui`, `New-York`
+## Contact
+Get in touch with **Kimiaki Yasui**:  
+- Instagram: [@kimiaki_yasui](https://www.instagram.com/kimiaki_yasui)  
+- Email: example@example.com  
 
 ---
 
-Feel free to explore the projects and contact me for collaborations or inquiries.
+**Keywords:** Kimiaki Yasui, makeup artist, portfolio, New York, fashion, beauty
+
