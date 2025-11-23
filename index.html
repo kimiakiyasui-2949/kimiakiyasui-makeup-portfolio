@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+   <title>Kimiaki Yasui Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -35,7 +35,10 @@ I could scarcely believe my eyes, amazed at the speed,</h1>
      <section class="main">
        
     <video src="relax.mp4"muted autoplay loop class="video-2"id="relax"></video>
-    
+    <div class="slideshow">
+    <img src="paris.jpg"class="slide">
+    <img src="art.jpg"class="slide">
+    </div>
     <div class="text-3">
         <p class="text-5">Turn around </p>
     </div>
@@ -84,6 +87,40 @@ Like morning dew kissed by the sun.
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+    .slideshow {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 90%; /* 好きな高さ */
+  overflow: hidden;
+  margin: 60px 60px 0 60px;
+  
+
+  
+
+ 
+ 
+  
+  
+}
+
+.slideshow .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+
+  opacity: 0;             /* 最初は非表示 */
+  transition: opacity 1s; /* フェード */
+}
+
+.slideshow .slide.active {
+  opacity: 1;
+}
+
 
 
     .video-section{
